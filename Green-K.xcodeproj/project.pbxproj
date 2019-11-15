@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		44DBCE3B237F3AF300876E1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44DBCE39237F3AF300876E1D /* Main.storyboard */; };
 		44DBCE3D237F3AF500876E1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44DBCE3C237F3AF500876E1D /* Assets.xcassets */; };
 		44DBCE40237F3AF500876E1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44DBCE3E237F3AF500876E1D /* LaunchScreen.storyboard */; };
+		44DBCE49237F5FA000876E1D /* UIReactor in Frameworks */ = {isa = PBXBuildFile; productRef = 44DBCE48237F5FA000876E1D /* UIReactor */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44DBCE49237F5FA000876E1D /* UIReactor in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = "Green-K";
+			packageProductDependencies = (
+				44DBCE48237F5FA000876E1D /* UIReactor */,
+			);
 			productName = "Green-K";
 			productReference = 44DBCE30237F3AF300876E1D /* Green-K.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 44DBCE27237F3AF300876E1D;
+			packageReferences = (
+				44DBCE47237F5FA000876E1D /* XCRemoteSwiftPackageReference "UIReactor" */,
+			);
 			productRefGroup = 44DBCE31237F3AF300876E1D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -336,6 +344,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		44DBCE47237F5FA000876E1D /* XCRemoteSwiftPackageReference "UIReactor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Wissa-Azmy/UIReactor.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		44DBCE48237F5FA000876E1D /* UIReactor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 44DBCE47237F5FA000876E1D /* XCRemoteSwiftPackageReference "UIReactor" */;
+			productName = UIReactor;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 44DBCE28237F3AF300876E1D /* Project object */;
 }
