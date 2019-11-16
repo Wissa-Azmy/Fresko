@@ -11,7 +11,7 @@ import UIReactor
 
 class SearchResultsVC: UIViewController {
     
-    var filteredCandies = [Candy(name: "Hello"),Candy(name: "Bellow")]
+    var filteredCandies = [Candy]()
     
     var searchResultsTableView: ReactorTableView<Candy, UITableViewCell>!
 
@@ -26,7 +26,6 @@ class SearchResultsVC: UIViewController {
     }
 
 }
-
 
 extension SearchResultsVC {
     fileprivate func setupCategoriesTableView() {

@@ -16,10 +16,14 @@
 		44DBCE49237F5FA000876E1D /* UIReactor in Frameworks */ = {isa = PBXBuildFile; productRef = 44DBCE48237F5FA000876E1D /* UIReactor */; };
 		44DBCE4B2380011800876E1D /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBCE4A2380011800876E1D /* HomeVC.swift */; };
 		44DBCE4D2380015E00876E1D /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBCE4C2380015E00876E1D /* MenuVC.swift */; };
+		44DBCE4F23801FDF00876E1D /* LanguageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBCE4E23801FDF00876E1D /* LanguageCell.swift */; };
+		44DBCE51238028AC00876E1D /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBCE50238028AC00876E1D /* CategoryCell.swift */; };
+		44DBCE5323804EC000876E1D /* SearchResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBCE5223804EC000876E1D /* SearchResultsVC.swift */; };
+		44FEC4D323808E2D00383EFE /* StoresVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FEC4D223808E2D00383EFE /* StoresVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		44DBCE30237F3AF300876E1D /* Green-K.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Green-K.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44DBCE30237F3AF300876E1D /* FresKo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FresKo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44DBCE33237F3AF300876E1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44DBCE35237F3AF300876E1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		44DBCE37237F3AF300876E1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,6 +33,10 @@
 		44DBCE41237F3AF500876E1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44DBCE4A2380011800876E1D /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		44DBCE4C2380015E00876E1D /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		44DBCE4E23801FDF00876E1D /* LanguageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageCell.swift; sourceTree = "<group>"; };
+		44DBCE50238028AC00876E1D /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		44DBCE5223804EC000876E1D /* SearchResultsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsVC.swift; sourceTree = "<group>"; };
+		44FEC4D223808E2D00383EFE /* StoresVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,16 +55,16 @@
 			isa = PBXGroup;
 			children = (
 				44DBCE32237F3AF300876E1D /* Green-K */,
-				44DBCE31237F3AF300876E1D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
 		44DBCE31237F3AF300876E1D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				44DBCE30237F3AF300876E1D /* Green-K.app */,
+				44DBCE30237F3AF300876E1D /* FresKo.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		44DBCE32237F3AF300876E1D /* Green-K */ = {
@@ -65,12 +73,17 @@
 				44DBCE33237F3AF300876E1D /* AppDelegate.swift */,
 				44DBCE35237F3AF300876E1D /* SceneDelegate.swift */,
 				44DBCE37237F3AF300876E1D /* ViewController.swift */,
-				44DBCE39237F3AF300876E1D /* Main.storyboard */,
-				44DBCE3C237F3AF500876E1D /* Assets.xcassets */,
-				44DBCE3E237F3AF500876E1D /* LaunchScreen.storyboard */,
-				44DBCE41237F3AF500876E1D /* Info.plist */,
 				44DBCE4A2380011800876E1D /* HomeVC.swift */,
+				44DBCE5223804EC000876E1D /* SearchResultsVC.swift */,
 				44DBCE4C2380015E00876E1D /* MenuVC.swift */,
+				44DBCE4E23801FDF00876E1D /* LanguageCell.swift */,
+				44DBCE50238028AC00876E1D /* CategoryCell.swift */,
+				44FEC4D223808E2D00383EFE /* StoresVC.swift */,
+				44DBCE39237F3AF300876E1D /* Main.storyboard */,
+				44DBCE3E237F3AF500876E1D /* LaunchScreen.storyboard */,
+				44DBCE3C237F3AF500876E1D /* Assets.xcassets */,
+				44DBCE41237F3AF500876E1D /* Info.plist */,
+				44DBCE31237F3AF300876E1D /* Products */,
 			);
 			path = "Green-K";
 			sourceTree = "<group>";
@@ -95,7 +108,7 @@
 				44DBCE48237F5FA000876E1D /* UIReactor */,
 			);
 			productName = "Green-K";
-			productReference = 44DBCE30237F3AF300876E1D /* Green-K.app */;
+			productReference = 44DBCE30237F3AF300876E1D /* FresKo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -153,8 +166,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				44DBCE38237F3AF300876E1D /* ViewController.swift in Sources */,
+				44DBCE5323804EC000876E1D /* SearchResultsVC.swift in Sources */,
 				44DBCE4B2380011800876E1D /* HomeVC.swift in Sources */,
 				44DBCE34237F3AF300876E1D /* AppDelegate.swift in Sources */,
+				44DBCE51238028AC00876E1D /* CategoryCell.swift in Sources */,
+				44DBCE4F23801FDF00876E1D /* LanguageCell.swift in Sources */,
+				44FEC4D323808E2D00383EFE /* StoresVC.swift in Sources */,
 				44DBCE36237F3AF300876E1D /* SceneDelegate.swift in Sources */,
 				44DBCE4D2380015E00876E1D /* MenuVC.swift in Sources */,
 			);
@@ -301,13 +318,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Q6U3JR8A8;
 				INFOPLIST_FILE = "Green-K/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wissa.Green-K.Green-K";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FresKo;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -318,13 +336,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7Q6U3JR8A8;
 				INFOPLIST_FILE = "Green-K/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.wissa.Green-K.Green-K";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FresKo;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

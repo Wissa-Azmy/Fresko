@@ -21,7 +21,7 @@ class ViewController: UITabBarController {
         tabBarHeight = tabBar.layer.frame.height
         
         let homeController = createNavController(viewController: HomeVC(), selected: UIImage(named: "homeBtn_selected")!, unselected: UIImage(named: "homeBtn_default")!)
-        let menuController = createNavController(viewController: MenuVC(), selected: UIImage(named: "menuBtn_selected")!, unselected: UIImage(named: "menuBtn_default")!)
+        let menuController = createNavController(viewController: StoresVC(), selected: UIImage(named: "menuBtn_selected")!, unselected: UIImage(named: "menuBtn_default")!)
       
         viewControllers = [homeController, menuController]
         
