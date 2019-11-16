@@ -20,6 +20,9 @@
 		44DBCE51238028AC00876E1D /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBCE50238028AC00876E1D /* CategoryCell.swift */; };
 		44DBCE5323804EC000876E1D /* SearchResultsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBCE5223804EC000876E1D /* SearchResultsVC.swift */; };
 		44FEC4D323808E2D00383EFE /* StoresVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FEC4D223808E2D00383EFE /* StoresVC.swift */; };
+		44FEC4D52380AADD00383EFE /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FEC4D42380AADD00383EFE /* CartVC.swift */; };
+		44FEC4D72380B39300383EFE /* StoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FEC4D62380B39300383EFE /* StoreVC.swift */; };
+		44FEC4D92380B6E800383EFE /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FEC4D82380B6E800383EFE /* ProductCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		44DBCE50238028AC00876E1D /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		44DBCE5223804EC000876E1D /* SearchResultsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsVC.swift; sourceTree = "<group>"; };
 		44FEC4D223808E2D00383EFE /* StoresVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoresVC.swift; sourceTree = "<group>"; };
+		44FEC4D42380AADD00383EFE /* CartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
+		44FEC4D62380B39300383EFE /* StoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreVC.swift; sourceTree = "<group>"; };
+		44FEC4D82380B6E800383EFE /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 				44DBCE4E23801FDF00876E1D /* LanguageCell.swift */,
 				44DBCE50238028AC00876E1D /* CategoryCell.swift */,
 				44FEC4D223808E2D00383EFE /* StoresVC.swift */,
+				44FEC4D42380AADD00383EFE /* CartVC.swift */,
+				44FEC4D62380B39300383EFE /* StoreVC.swift */,
+				44FEC4D82380B6E800383EFE /* ProductCell.swift */,
 				44DBCE39237F3AF300876E1D /* Main.storyboard */,
 				44DBCE3E237F3AF500876E1D /* LaunchScreen.storyboard */,
 				44DBCE3C237F3AF500876E1D /* Assets.xcassets */,
@@ -170,9 +179,12 @@
 				44DBCE4B2380011800876E1D /* HomeVC.swift in Sources */,
 				44DBCE34237F3AF300876E1D /* AppDelegate.swift in Sources */,
 				44DBCE51238028AC00876E1D /* CategoryCell.swift in Sources */,
+				44FEC4D72380B39300383EFE /* StoreVC.swift in Sources */,
 				44DBCE4F23801FDF00876E1D /* LanguageCell.swift in Sources */,
 				44FEC4D323808E2D00383EFE /* StoresVC.swift in Sources */,
 				44DBCE36237F3AF300876E1D /* SceneDelegate.swift in Sources */,
+				44FEC4D92380B6E800383EFE /* ProductCell.swift in Sources */,
+				44FEC4D52380AADD00383EFE /* CartVC.swift in Sources */,
 				44DBCE4D2380015E00876E1D /* MenuVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
