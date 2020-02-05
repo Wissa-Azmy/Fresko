@@ -11,7 +11,7 @@ import UIKit
 class StoreVC: UIViewController {
     
     let awarenessTableView = UITableView()
-    let segmentControl = UISegmentedControl(items: ["Home","Basket"])
+    let segmentControl = UISegmentedControl(items: ["Fresh","Return"])
     
     override func loadView() {
             view = UIView()

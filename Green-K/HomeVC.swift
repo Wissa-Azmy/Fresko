@@ -22,14 +22,14 @@ class HomeVC: UIViewController {
     
     var categories = [Category]()
     let candies = [
-        Candy(name: "one"),
-        Candy(name: "two"),
-        Candy(name: "three"),
-        Candy(name: "four"),
-        Candy(name: "five"),
-        Candy(name: "six"),
-        Candy(name: "seven"),
-        Candy(name: "eight")
+        Candy(name: "Milk"),
+        Candy(name: "Pepsi"),
+        Candy(name: "Tuna"),
+        Candy(name: "Meat"),
+        Candy(name: "Juice"),
+        Candy(name: "Cheese"),
+        Candy(name: "Eggs"),
+        Candy(name: "Flour")
     ]
     
     var filteredCandies: [Candy] = []

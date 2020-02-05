@@ -23,6 +23,7 @@
 		44FEC4D52380AADD00383EFE /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FEC4D42380AADD00383EFE /* CartVC.swift */; };
 		44FEC4D72380B39300383EFE /* StoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FEC4D62380B39300383EFE /* StoreVC.swift */; };
 		44FEC4D92380B6E800383EFE /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FEC4D82380B6E800383EFE /* ProductCell.swift */; };
+		44FEC4DB2381292300383EFE /* CartItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FEC4DA2381292300383EFE /* CartItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		44FEC4D42380AADD00383EFE /* CartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
 		44FEC4D62380B39300383EFE /* StoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreVC.swift; sourceTree = "<group>"; };
 		44FEC4D82380B6E800383EFE /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		44FEC4DA2381292300383EFE /* CartItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				44FEC4D42380AADD00383EFE /* CartVC.swift */,
 				44FEC4D62380B39300383EFE /* StoreVC.swift */,
 				44FEC4D82380B6E800383EFE /* ProductCell.swift */,
+				44FEC4DA2381292300383EFE /* CartItemCell.swift */,
 				44DBCE39237F3AF300876E1D /* Main.storyboard */,
 				44DBCE3E237F3AF500876E1D /* LaunchScreen.storyboard */,
 				44DBCE3C237F3AF500876E1D /* Assets.xcassets */,
@@ -178,6 +181,7 @@
 				44DBCE5323804EC000876E1D /* SearchResultsVC.swift in Sources */,
 				44DBCE4B2380011800876E1D /* HomeVC.swift in Sources */,
 				44DBCE34237F3AF300876E1D /* AppDelegate.swift in Sources */,
+				44FEC4DB2381292300383EFE /* CartItemCell.swift in Sources */,
 				44DBCE51238028AC00876E1D /* CategoryCell.swift in Sources */,
 				44FEC4D72380B39300383EFE /* StoreVC.swift in Sources */,
 				44DBCE4F23801FDF00876E1D /* LanguageCell.swift in Sources */,

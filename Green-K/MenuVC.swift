@@ -14,7 +14,7 @@ class MenuVC: UIViewController {
 
         override func viewDidLoad() {
             super.viewDidLoad()
-
+            title = "Menu"
             // Uncomment the following line to preserve selection between presentations
             // self.clearsSelectionOnViewWillAppear = false
 
@@ -27,7 +27,7 @@ class MenuVC: UIViewController {
         func setupView() {
             view.backgroundColor = #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)
             navigationController?.navigationBar.barTintColor = #colorLiteral(red: 0, green: 0.7156304717, blue: 0.9302947521, alpha: 1)
-            navigationItem.title = "Settings"
+            navigationItem.title = "Menu"
             
             let notificationBtn = UIButton(type: .custom)
             notificationBtn.setImage(UIImage(named: "notificationIcon"), for: .normal)
